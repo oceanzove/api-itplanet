@@ -1,0 +1,11 @@
+{
+  "server": {
+    "port": 8080
+  },
+  "database": {
+    "host": "localhost",
+    "username": "postgres",
+    "password": "1234",
+    "database": "2023_it_planeta"
+  }
+}

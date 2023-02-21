@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net6.0</TargetFramework>
+        <RootNamespace>it_planet</RootNamespace>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.3-beta1" />
+      <PackageReference Include="Npgsql" Version="7.0.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="handler" />
+      <Folder Include="service" />
+    </ItemGroup>
+
+</Project>
