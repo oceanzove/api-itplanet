@@ -26,7 +26,7 @@ public class RepositoryResponsibility
             command.Parameters.Add(new NpgsqlParameter {Value = arg});
         }
         
-        var queryReader = command.ExecuteReader();
+        using var queryReader = command.ExecuteReader();
         var isMoveCursorSuccess = queryReader.Read();
         if (!isMoveCursorSuccess) throw new NpgsqlRowNotFoundException();
 

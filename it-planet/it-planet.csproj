@@ -13,9 +13,4 @@
       <PackageReference Include="Npgsql" Version="7.0.1" />
     </ItemGroup>
 
-    <ItemGroup>
-      <Folder Include="handler" />
-      <Folder Include="service" />
-    </ItemGroup>
-
 </Project>
