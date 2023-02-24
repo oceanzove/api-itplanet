@@ -1,4 +1,3 @@
-using System.Reflection;
 using it_planet.repository.postgres;
 using it_planet.repository.postgres.queries;
 using Npgsql;

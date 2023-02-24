@@ -12,7 +12,7 @@ public class ServiceResponsibility
         _repository = repository;
     }
 
-    protected void ThrowInvalidRequestField(string? template, params string[] args)
+    protected void ThrowInvalidRequestField(string? template, params object?[] args)
     {
         var message = String.Format(template ?? "",  args);
         throw new InvalidRequestFieldExpetion(message);
